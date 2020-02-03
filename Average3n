@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(){
+
+	int a,b,c;
+	printf("Enter 3 number\n");
+		fflush(stdout);
+
+	    scanf("%d",&a);
+
+	    scanf("%d",&b);
+
+	    scanf("%d",&c);
+
+float res = (a+b+c)/3;
+
+		printf("Average = %.2lf",res );
+
+
+	return 0;
+
+}
